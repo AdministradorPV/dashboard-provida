@@ -228,7 +228,7 @@ const AnalyticsView = ({ data }: AnalyticsViewProps) => {
             </div>
             <div style={{display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '16px', fontSize: '0.85rem', color: '#94a3b8'}}>
                 <AlertCircle size={14} />
-                <span>Células vermelhas indicam unidades gastando ACIMA da média.</span>
+                <span>As cores indicam o desvio em relação à <b>Média do Grupo</b> (linha azul no topo). Células vermelhas indicam gastos &gt; 20% acima da média.</span>
             </div>
             
             <div className="heatmap-scroll">
@@ -242,6 +242,15 @@ const AnalyticsView = ({ data }: AnalyticsViewProps) => {
                         </tr>
                     </thead>
                     <tbody>
+                        {/* Reference Row: Average */}
+                        <tr className="reference-row" style={{background: 'rgba(59, 130, 246, 0.1)', fontWeight: '600'}}>
+                            <td className="sticky-col name-col" style={{color: '#3b82f6'}}>MÉDIA DO GRUPO</td>
+                            {categories.map(cat => (
+                                <td key={`avg-${cat}`} style={{textAlign: 'center', fontSize: '0.85rem', color: '#60a5fa'}}>
+                                    {formatValue(averages[cat])}
+                                </td>
+                            ))}
+                        </tr>
                         {heatmapData.map((row) => (
                             <tr key={row.id}>
                                 <td className="sticky-col name-col">{row.name}</td>
@@ -304,7 +313,7 @@ const OperationalDiagnosis = ({ data }: { data: FinancialData }) => {
             <div className="grid-2-1" style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px'}}>
                 
                 {/* Personnel Efficiency Chart */}
-                <div className="glass-panel chart-container" style={{height: '350px'}}>
+                <div className="glass-panel chart-container" style={{height: '650px'}}>
                     <div className="flex-header">
                         <div style={{display:'flex', alignItems:'center', gap:'8px'}}>
                             <Users size={18} className="text-blue-400"/>
@@ -316,7 +325,7 @@ const OperationalDiagnosis = ({ data }: { data: FinancialData }) => {
                          <BarChart data={diagnosisData.efficiencyRanking} layout="vertical" margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                             <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" horizontal={false} />
                             <XAxis type="number" stroke="#94a3b8" fontSize={10} hide />
-                            <YAxis dataKey="name" type="category" width={100} stroke="#94a3b8" fontSize={10} />
+                            <YAxis dataKey="name" type="category" width={120} stroke="#94a3b8" fontSize={10} interval={0} />
                             <Tooltip 
                                 cursor={{fill: 'rgba(255,255,255,0.05)'}}
                                 contentStyle={{ backgroundColor: '#1e293b', borderColor: '#334155', color: '#f8fafc' }}
@@ -332,7 +341,7 @@ const OperationalDiagnosis = ({ data }: { data: FinancialData }) => {
                 </div>
 
                 {/* Strategic Buckets Grid */}
-                <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', minHeight: '350px'}}>
+                <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', minHeight: '650px'}}>
                     
                     {/* Quadrant 1: Leaders */}
                     <div className="glass-panel" style={{display: 'flex', flexDirection: 'column', borderLeft: '3px solid #10b981', padding: '16px'}}>
