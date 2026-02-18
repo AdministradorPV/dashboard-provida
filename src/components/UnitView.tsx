@@ -37,7 +37,7 @@ const UnitView = ({ data }: UnitViewProps) => {
 
   const calculateContribution = (unitEbitda: number, totalEbitda: number) => {
     if (totalEbitda === 0) return "0%";
-    return ((unitEbitda / totalEbitda) * 100).toFixed(1) + "%";
+    return ((unitEbitda / totalEbitda) * 100).toFixed(2) + "%";
   };
 
   // Top 5 expenses for chart
@@ -90,7 +90,7 @@ const UnitView = ({ data }: UnitViewProps) => {
         <KPICard
           label="Margem EBITDA"
           value={
-            ((selectedUnit.ebitda / selectedUnit.revenue) * 100).toFixed(1) +
+            ((selectedUnit.ebitda / selectedUnit.revenue) * 100).toFixed(2) +
             "%"
           }
           icon={Activity}
