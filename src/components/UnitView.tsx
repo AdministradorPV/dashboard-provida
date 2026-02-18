@@ -131,6 +131,25 @@ const UnitView = ({ data }: UnitViewProps) => {
                   </tr>
                 ))}
                 <tr
+                  className="row-highlight positive"
+                  style={{
+                    borderTop: "2px solid rgba(16,185,129,0.5)",
+                    fontSize: "1rem",
+                  }}
+                >
+                  <td style={{ fontWeight: 700 }}>EBITDA</td>
+                  <td style={{ textAlign: "right", fontWeight: 700 }}>
+                    {formatCurrency(selectedUnit.ebitda)}
+                  </td>
+                  <td style={{ textAlign: "right", fontWeight: 700 }}>
+                    {(
+                      (selectedUnit.ebitda / selectedUnit.revenue) *
+                      100
+                    ).toFixed(2)}
+                    %
+                  </td>
+                </tr>
+                <tr
                   className="row-highlight"
                   style={{
                     borderTop: "2px solid rgba(245,158,11,0.5)",
@@ -145,25 +164,6 @@ const UnitView = ({ data }: UnitViewProps) => {
                   <td style={{ textAlign: "right", fontWeight: 700 }}>
                     {(
                       (selectedUnit.netProfit / selectedUnit.revenue) *
-                      100
-                    ).toFixed(2)}
-                    %
-                  </td>
-                </tr>
-                <tr
-                  className="row-highlight positive"
-                  style={{
-                    borderTop: "2px solid rgba(16,185,129,0.5)",
-                    fontSize: "1rem",
-                  }}
-                >
-                  <td style={{ fontWeight: 700 }}>EBITDA</td>
-                  <td style={{ textAlign: "right", fontWeight: 700 }}>
-                    {formatCurrency(selectedUnit.ebitda)}
-                  </td>
-                  <td style={{ textAlign: "right", fontWeight: 700 }}>
-                    {(
-                      (selectedUnit.ebitda / selectedUnit.revenue) *
                       100
                     ).toFixed(2)}
                     %
