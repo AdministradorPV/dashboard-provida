@@ -1638,89 +1638,89 @@
   {
     "meta": {
       "period": "Janeiro/2026",
-      "generatedAt": "2026-02-18T09:50:49.118Z"
+      "generatedAt": "2026-02-18T21:18:15.752Z"
     },
     "consolidated": {
       "id": "CONSOLIDADO",
       "name": "Consolidado (Grupo)",
-      "revenue": 5872501.91,
-      "ebitda": 1198985.8299999998,
-      "netProfit": 1198985.8299999998,
+      "revenue": 4347614.0200000005,
+      "ebitda": 1336748.8,
+      "netProfit": 1194033.8399999999,
       "expenses": [
         {
           "category": "DESPESAS COM PESSOAL",
           "value": 1032716.3500000001,
-          "percentOfRevenue": 17.585628167126472
+          "percentOfRevenue": 23.75363464303117
         },
         {
           "category": "DESPESAS COM CLINICA MEDICA",
           "value": 41064.31,
-          "percentOfRevenue": 0.6992643106692492
+          "percentOfRevenue": 0.9445251995944202
         },
         {
           "category": "REPASSE PRESTADORES CLINICA MEDICA",
           "value": 1932474.89,
-          "percentOfRevenue": 32.90718197484588
+          "percentOfRevenue": 44.44909049216839
         },
         {
           "category": "DESPESAS COM VEICULOS",
           "value": 49698.479999999996,
-          "percentOfRevenue": 0.8462914233432748
+          "percentOfRevenue": 1.1431207961740815
         },
         {
           "category": "DESPESAS COM ALUGUEIS",
           "value": 126311.55,
-          "percentOfRevenue": 2.1508984064340644
+          "percentOfRevenue": 2.905307357528486
         },
         {
           "category": "DESPESAS COM VENDAS",
           "value": 99380.72000000002,
-          "percentOfRevenue": 1.6923063035666177
+          "percentOfRevenue": 2.2858680541286875
         },
         {
           "category": "DESPESAS COM MANUTENCAO",
           "value": 36042.35,
-          "percentOfRevenue": 0.6137477782446561
+          "percentOfRevenue": 0.8290144855131366
         },
         {
           "category": "DESPESAS COM UTILIDADES E SERVICOS",
           "value": 17428.350000000002,
-          "percentOfRevenue": 0.29677895839117746
+          "percentOfRevenue": 0.400871602672769
         },
         {
           "category": "DESPESAS ADMINISTRATIVAS",
           "value": 511601.31,
-          "percentOfRevenue": 8.711811725915641
+          "percentOfRevenue": 11.767404089841442
         },
         {
           "category": "DESPESAS FINANCEIRAS",
           "value": 96275.74,
-          "percentOfRevenue": 1.6394330981154164
+          "percentOfRevenue": 2.214450030686027
         },
         {
           "category": "FUNERAL",
           "value": 131525,
-          "percentOfRevenue": 2.2396757296244116
+          "percentOfRevenue": 3.025222556440279
         },
         {
           "category": "DESPESAS IMPOSTOS E TAXAS",
           "value": 27338.799999999996,
-          "percentOfRevenue": 0.4655392270447128
+          "percentOfRevenue": 0.6288230710968218
         },
         {
           "category": "DESPESAS IMPOSTOS SOBRE RECEITA",
           "value": 370024.7,
-          "percentOfRevenue": 6.300971982144489
+          "percentOfRevenue": 8.510983226611271
         },
         {
           "category": "DESPESAS IMPOSTOS SOBRE LUCRO",
-          "value": 41487.229999999996,
-          "percentOfRevenue": 0.7064660111792113
+          "value": 46439.22000000001,
+          "percentOfRevenue": 1.0681541596463986
         },
         {
           "category": "INVESTIMENTOS",
           "value": 160146.30000000002,
-          "percentOfRevenue": 2.72705403002585
+          "percentOfRevenue": 3.6835445663596422
         }
       ]
     },
@@ -1729,8 +1729,8 @@
         "id": "AGUDO",
         "name": "AGUDO",
         "revenue": 383606.68,
-        "ebitda": 101005.13,
-        "netProfit": 101005.13,
+        "ebitda": 108654.37000000001,
+        "netProfit": 102005.13,
         "expenses": [
           {
             "category": "DESPESAS COM PESSOAL",
@@ -1799,8 +1799,8 @@
           },
           {
             "category": "DESPESAS IMPOSTOS SOBRE LUCRO",
-            "value": 2717.42,
-            "percentOfRevenue": 0.7083870385155963
+            "value": 1717.42,
+            "percentOfRevenue": 0.4477033611614897
           },
           {
             "category": "INVESTIMENTOS",
@@ -1813,8 +1813,8 @@
         "id": "ARROIO DO TIGRE",
         "name": "ARROIO DO TIGRE",
         "revenue": 199847.07,
-        "ebitda": 55431.19,
-        "netProfit": 55431.19,
+        "ebitda": 59850.76,
+        "netProfit": 56031.19,
         "expenses": [
           {
             "category": "DESPESAS COM PESSOAL",
@@ -1883,8 +1883,8 @@
           },
           {
             "category": "DESPESAS IMPOSTOS SOBRE LUCRO",
-            "value": 1443.87,
-            "percentOfRevenue": 0.7224874500286643
+            "value": 843.87,
+            "percentOfRevenue": 0.42225787948755017
           },
           {
             "category": "INVESTIMENTOS",
@@ -1897,7 +1897,7 @@
         "id": "ARVOREZINHA",
         "name": "ARVOREZINHA",
         "revenue": 40729.65,
-        "ebitda": -74877.3,
+        "ebitda": -74154.06,
         "netProfit": -74877.3,
         "expenses": [
           {
@@ -1973,11 +1973,95 @@
         ]
       },
       {
+        "id": "CACHOEIRA DO SUL",
+        "name": "CACHOEIRA DO SUL",
+        "revenue": 0,
+        "ebitda": 170796.61000000002,
+        "netProfit": 152149.35,
+        "expenses": [
+          {
+            "category": "DESPESAS COM PESSOAL",
+            "value": 151437.88,
+            "percentOfRevenue": 0
+          },
+          {
+            "category": "DESPESAS COM CLINICA MEDICA",
+            "value": 11967.95,
+            "percentOfRevenue": 0
+          },
+          {
+            "category": "REPASSE PRESTADORES CLINICA MEDICA",
+            "value": 253001.62,
+            "percentOfRevenue": 0
+          },
+          {
+            "category": "DESPESAS COM VEICULOS",
+            "value": 17545.49,
+            "percentOfRevenue": 0
+          },
+          {
+            "category": "DESPESAS COM ALUGUEIS",
+            "value": 2650.23,
+            "percentOfRevenue": 0
+          },
+          {
+            "category": "DESPESAS COM VENDAS",
+            "value": 13933.09,
+            "percentOfRevenue": 0
+          },
+          {
+            "category": "DESPESAS COM MANUTENCAO",
+            "value": 5027.21,
+            "percentOfRevenue": 0
+          },
+          {
+            "category": "DESPESAS COM UTILIDADES E SERVICOS",
+            "value": 2397.45,
+            "percentOfRevenue": 0
+          },
+          {
+            "category": "DESPESAS ADMINISTRATIVAS",
+            "value": 61637.47,
+            "percentOfRevenue": 0
+          },
+          {
+            "category": "DESPESAS FINANCEIRAS",
+            "value": 14440.44,
+            "percentOfRevenue": 0
+          },
+          {
+            "category": "FUNERAL",
+            "value": 104000,
+            "percentOfRevenue": 0
+          },
+          {
+            "category": "DESPESAS IMPOSTOS E TAXAS",
+            "value": 10074.05,
+            "percentOfRevenue": 0
+          },
+          {
+            "category": "DESPESAS IMPOSTOS SOBRE RECEITA",
+            "value": 63049.3,
+            "percentOfRevenue": 0
+          },
+          {
+            "category": "DESPESAS IMPOSTOS SOBRE LUCRO",
+            "value": 4206.82,
+            "percentOfRevenue": 0
+          },
+          {
+            "category": "INVESTIMENTOS",
+            "value": 17461.48,
+            "percentOfRevenue": 0
+          }
+        ]
+      },
+      {
         "id": "CAÇAPAVA DO SUL",
         "name": "CAÇAPAVA DO SUL",
         "revenue": 324938.24,
-        "ebitda": 71242.18,
-        "netProfit": 71242.18,
+        "ebitda": 78613.26999999999,
+        "netProfit": 71942.18,
         "expenses": [
           {
             "category": "DESPESAS COM PESSOAL",
@@ -2041,8 +2125,8 @@
           },
           {
             "category": "DESPESAS IMPOSTOS SOBRE LUCRO",
-            "value": 2305.7,
-            "percentOfRevenue": 0.7095809960686683
+            "value": 1605.7,
+            "percentOfRevenue": 0.49415544320052945
           },
           {
             "category": "INVESTIMENTOS",
@@ -2052,249 +2136,165 @@
         ]
       },
       {
-        "id": "CACHOEIRA DO SUL",
-        "name": "CACHOEIRA DO SUL",
-        "revenue": 884979.83,
-        "ebitda": 150149.35,
-        "netProfit": 150149.35,
-        "expenses": [
-          {
-            "category": "DESPESAS COM PESSOAL",
-            "value": 151437.88,
-            "percentOfRevenue": 17.112014858010944
-          },
-          {
-            "category": "DESPESAS COM CLINICA MEDICA",
-            "value": 11967.95,
-            "percentOfRevenue": 1.3523415556261889
-          },
-          {
-            "category": "REPASSE PRESTADORES CLINICA MEDICA",
-            "value": 253001.62,
-            "percentOfRevenue": 28.588405229529357
-          },
-          {
-            "category": "DESPESAS COM VEICULOS",
-            "value": 17545.49,
-            "percentOfRevenue": 1.9825864279867262
-          },
-          {
-            "category": "DESPESAS COM ALUGUEIS",
-            "value": 2650.23,
-            "percentOfRevenue": 0.2994678421088987
-          },
-          {
-            "category": "DESPESAS COM VENDAS",
-            "value": 13933.09,
-            "percentOfRevenue": 1.5743963339819849
-          },
-          {
-            "category": "DESPESAS COM MANUTENCAO",
-            "value": 5027.21,
-            "percentOfRevenue": 0.5680592743000707
-          },
-          {
-            "category": "DESPESAS COM UTILIDADES E SERVICOS",
-            "value": 2397.45,
-            "percentOfRevenue": 0.2709044792580188
-          },
-          {
-            "category": "DESPESAS ADMINISTRATIVAS",
-            "value": 61637.47,
-            "percentOfRevenue": 6.964844611204303
-          },
-          {
-            "category": "DESPESAS FINANCEIRAS",
-            "value": 14440.44,
-            "percentOfRevenue": 1.6317253241805525
-          },
-          {
-            "category": "FUNERAL",
-            "value": 104000,
-            "percentOfRevenue": 11.751680261458615
-          },
-          {
-            "category": "DESPESAS IMPOSTOS E TAXAS",
-            "value": 10074.05,
-            "percentOfRevenue": 1.138336678249492
-          },
-          {
-            "category": "DESPESAS IMPOSTOS SOBRE RECEITA",
-            "value": 63049.3,
-            "percentOfRevenue": 7.124377060661372
-          },
-          {
-            "category": "DESPESAS IMPOSTOS SOBRE LUCRO",
-            "value": 6206.82,
-            "percentOfRevenue": 0.7013515776964092
-          },
-          {
-            "category": "INVESTIMENTOS",
-            "value": 17461.48,
-            "percentOfRevenue": 1.9730935562678305
-          }
-        ]
-      },
-      {
         "id": "CANDELARIA",
         "name": "CANDELARIA",
-        "revenue": 384708.74,
-        "ebitda": 109048.29,
-        "netProfit": 109048.29,
+        "revenue": 0,
+        "ebitda": 120952.06999999999,
+        "netProfit": 110048.29,
         "expenses": [
           {
             "category": "DESPESAS COM PESSOAL",
             "value": 52314.01,
-            "percentOfRevenue": 13.598341956047062
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS COM CLINICA MEDICA",
             "value": 1100.53,
-            "percentOfRevenue": 0.2860683643423334
+            "percentOfRevenue": 0
           },
           {
             "category": "REPASSE PRESTADORES CLINICA MEDICA",
             "value": 130770.8,
-            "percentOfRevenue": 33.992157287614525
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS COM VEICULOS",
             "value": 2130.17,
-            "percentOfRevenue": 0.5537098013421791
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS COM ALUGUEIS",
             "value": 6652.93,
-            "percentOfRevenue": 1.72934204718094
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS COM VENDAS",
             "value": 3866.64,
-            "percentOfRevenue": 1.0050824423692584
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS COM MANUTENCAO",
             "value": 802.64,
-            "percentOfRevenue": 0.2086357590940097
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS COM UTILIDADES E SERVICOS",
             "value": 1005.37,
-            "percentOfRevenue": 0.2613327682651556
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS ADMINISTRATIVAS",
             "value": 20405.62,
-            "percentOfRevenue": 5.30417374973077
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS FINANCEIRAS",
             "value": 9216.5,
-            "percentOfRevenue": 2.3957085040490633
+            "percentOfRevenue": 0
           },
           {
             "category": "FUNERAL",
             "value": 10500,
-            "percentOfRevenue": 2.729337524278757
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS IMPOSTOS E TAXAS",
             "value": 585.24,
-            "percentOfRevenue": 0.15212547549608568
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS IMPOSTOS SOBRE RECEITA",
             "value": 30694,
-            "percentOfRevenue": 7.978503425734493
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS IMPOSTOS SOBRE LUCRO",
-            "value": 2687.28,
-            "percentOfRevenue": 0.6985232516422685
+            "value": 1687.28,
+            "percentOfRevenue": 0
           },
           {
             "category": "INVESTIMENTOS",
             "value": 2928.72,
-            "percentOfRevenue": 0.7612824184862553
+            "percentOfRevenue": 0
           }
         ]
       },
       {
         "id": "CANGUÇU",
         "name": "CANGUÇU",
-        "revenue": 255199.32,
-        "ebitda": 64406.61,
+        "revenue": 0,
+        "ebitda": 70556.95,
         "netProfit": 64406.61,
         "expenses": [
           {
             "category": "DESPESAS COM PESSOAL",
             "value": 45171.51,
-            "percentOfRevenue": 17.7004821172721
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS COM CLINICA MEDICA",
             "value": 3023.68,
-            "percentOfRevenue": 1.18483074327941
+            "percentOfRevenue": 0
           },
           {
             "category": "REPASSE PRESTADORES CLINICA MEDICA",
             "value": 79351.82,
-            "percentOfRevenue": 31.09405620673284
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS COM VEICULOS",
             "value": 769.61,
-            "percentOfRevenue": 0.30157212017649576
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS COM ALUGUEIS",
             "value": 7382.08,
-            "percentOfRevenue": 2.8926722845499744
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS COM VENDAS",
             "value": 3297.15,
-            "percentOfRevenue": 1.2919901197228896
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS COM MANUTENCAO",
             "value": 989.88,
-            "percentOfRevenue": 0.3878850460886808
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS COM UTILIDADES E SERVICOS",
             "value": 913.96,
-            "percentOfRevenue": 0.3581357505184575
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS ADMINISTRATIVAS",
             "value": 14926.49,
-            "percentOfRevenue": 5.84895367276057
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS FINANCEIRAS",
             "value": 4320.75,
-            "percentOfRevenue": 1.6930883671633608
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS IMPOSTOS E TAXAS",
             "value": 4272.8,
-            "percentOfRevenue": 1.674299132145023
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS IMPOSTOS SOBRE RECEITA",
             "value": 22549.25,
-            "percentOfRevenue": 8.835936553435957
+            "percentOfRevenue": 0
           },
           {
             "category": "DESPESAS IMPOSTOS SOBRE LUCRO",
             "value": 1829.59,
-            "percentOfRevenue": 0.7169258914953222
+            "percentOfRevenue": 0
           },
           {
             "category": "INVESTIMENTOS",
             "value": 1994.14,
-            "percentOfRevenue": 0.7814049034299935
+            "percentOfRevenue": 0
           }
         ]
       },
@@ -2302,7 +2302,7 @@
         "id": "ENCRUZILHADA DO SUL",
         "name": "ENCRUZILHADA DO SUL",
         "revenue": 200300.95,
-        "ebitda": 41981.44,
+        "ebitda": 46660.15,
         "netProfit": 41981.44,
         "expenses": [
           {
@@ -2381,8 +2381,8 @@
         "id": "ESPUMOSO",
         "name": "ESPUMOSO",
         "revenue": 116377.3,
-        "ebitda": 24023.19,
-        "netProfit": 24023.19,
+        "ebitda": 27327.800000000003,
+        "netProfit": 24779.47,
         "expenses": [
           {
             "category": "DESPESAS COM PESSOAL",
@@ -2446,8 +2446,8 @@
           },
           {
             "category": "DESPESAS IMPOSTOS SOBRE LUCRO",
-            "value": 976.59,
-            "percentOfRevenue": 0.8391584956860144
+            "value": 220.31,
+            "percentOfRevenue": 0.18930667750497734
           },
           {
             "category": "INVESTIMENTOS",
@@ -2460,7 +2460,7 @@
         "id": "FAXINAL DO SOTURNO",
         "name": "FAXINAL DO SOTURNO",
         "revenue": 175714.65,
-        "ebitda": 39218.63,
+        "ebitda": 43317.11,
         "netProfit": 39218.63,
         "expenses": [
           {
@@ -2539,8 +2539,8 @@
         "id": "MEDICINA DO TRABALHO",
         "name": "MEDICINA DO TRABALHO",
         "revenue": 913170.19,
-        "ebitda": 370674.86,
-        "netProfit": 370674.86,
+        "ebitda": 387892.32,
+        "netProfit": 357046.88,
         "expenses": [
           {
             "category": "DESPESAS COM PESSOAL",
@@ -2604,8 +2604,8 @@
           },
           {
             "category": "DESPESAS IMPOSTOS SOBRE LUCRO",
-            "value": 5425.9,
-            "percentOfRevenue": 0.5941827776922941
+            "value": 19053.88,
+            "percentOfRevenue": 2.0865639514579426
           },
           {
             "category": "INVESTIMENTOS",
@@ -2618,7 +2618,7 @@
         "id": "NOVA PALMA",
         "name": "NOVA PALMA",
         "revenue": 144235.29,
-        "ebitda": 33411.37,
+        "ebitda": 36690.58,
         "netProfit": 33411.37,
         "expenses": [
           {
@@ -2697,7 +2697,7 @@
         "id": "PANTANO GRANDE",
         "name": "PANTANO GRANDE",
         "revenue": 173746.25,
-        "ebitda": 23821.59,
+        "ebitda": 28359.370000000003,
         "netProfit": 23821.59,
         "expenses": [
           {
@@ -2781,7 +2781,7 @@
         "id": "PARAISO DO SUL",
         "name": "PARAISO DO SUL",
         "revenue": 159790.33,
-        "ebitda": 25207.59,
+        "ebitda": 28738.760000000002,
         "netProfit": 25207.59,
         "expenses": [
           {
@@ -2860,7 +2860,7 @@
         "id": "PELOTAS",
         "name": "PELOTAS",
         "revenue": 126414.42,
-        "ebitda": -193285.99,
+        "ebitda": -190687.94999999998,
         "netProfit": -193285.99,
         "expenses": [
           {
@@ -2939,7 +2939,7 @@
         "id": "RESTINGA SECA",
         "name": "RESTINGA SECA",
         "revenue": 168523.29,
-        "ebitda": 43195.44,
+        "ebitda": 47355.58,
         "netProfit": 43195.44,
         "expenses": [
           {
@@ -3018,8 +3018,8 @@
         "id": "RIO PARDO",
         "name": "RIO PARDO",
         "revenue": 252900.22,
-        "ebitda": 69930.34,
-        "netProfit": 69930.34,
+        "ebitda": 76274.51,
+        "netProfit": 70830.34,
         "expenses": [
           {
             "category": "DESPESAS COM PESSOAL",
@@ -3088,8 +3088,8 @@
           },
           {
             "category": "DESPESAS IMPOSTOS SOBRE LUCRO",
-            "value": 1893.45,
-            "percentOfRevenue": 0.7486944851214443
+            "value": 993.45,
+            "percentOfRevenue": 0.3928229085763547
           },
           {
             "category": "INVESTIMENTOS",
@@ -3102,7 +3102,7 @@
         "id": "SALTO DO JACUI",
         "name": "SALTO DO JACUI",
         "revenue": 125143.1,
-        "ebitda": 33653.93,
+        "ebitda": 36826.740000000005,
         "netProfit": 33653.93,
         "expenses": [
           {
@@ -3181,8 +3181,8 @@
         "id": "SÃO GABRIEL",
         "name": "SÃO GABRIEL",
         "revenue": 307159.73,
-        "ebitda": 88057.56,
-        "netProfit": 88057.56,
+        "ebitda": 95891.99,
+        "netProfit": 89777.27,
         "expenses": [
           {
             "category": "DESPESAS COM PESSOAL",
@@ -3251,8 +3251,8 @@
           },
           {
             "category": "DESPESAS IMPOSTOS SOBRE LUCRO",
-            "value": 2220,
-            "percentOfRevenue": 0.7227509934326353
+            "value": 500.29,
+            "percentOfRevenue": 0.16287616869568158
           },
           {
             "category": "INVESTIMENTOS",
@@ -3265,7 +3265,7 @@
         "id": "SOBRADINHO",
         "name": "SOBRADINHO",
         "revenue": 330644.68,
-        "ebitda": 78505.67,
+        "ebitda": 86988.72,
         "netProfit": 78505.67,
         "expenses": [
           {
@@ -3349,7 +3349,7 @@
         "id": "VERA CRUZ",
         "name": "VERA CRUZ",
         "revenue": 204371.98,
-        "ebitda": 44184.76,
+        "ebitda": 49843.15,
         "netProfit": 44184.76,
         "expenses": [
           {
