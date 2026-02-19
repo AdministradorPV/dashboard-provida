@@ -216,21 +216,6 @@ const MasterView = ({ data }: MasterViewProps) => {
               </tr>
             ))}
             <tr
-              className="row-highlight positive"
-              style={{
-                borderTop: "2px solid rgba(16,185,129,0.5)",
-                fontSize: "1rem",
-              }}
-            >
-              <td style={{ fontWeight: 700 }}>EBITDA</td>
-              <td style={{ textAlign: "right", fontWeight: 700 }}>
-                {formatCurrency(consolidated.ebitda)}
-              </td>
-              <td style={{ textAlign: "right", fontWeight: 700 }}>
-                {calculateMargin(consolidated.ebitda, consolidated.revenue)}
-              </td>
-            </tr>
-            <tr
               className="row-highlight"
               style={{
                 borderTop: "2px solid rgba(245,158,11,0.5)",
@@ -248,6 +233,21 @@ const MasterView = ({ data }: MasterViewProps) => {
                   100
                 ).toFixed(2)}
                 %
+              </td>
+            </tr>
+            <tr
+              className="row-highlight positive"
+              style={{
+                borderTop: "2px solid rgba(16,185,129,0.5)",
+                fontSize: "1rem",
+              }}
+            >
+              <td style={{ fontWeight: 700 }}>EBITDA</td>
+              <td style={{ textAlign: "right", fontWeight: 700 }}>
+                {formatCurrency(consolidated.ebitda)}
+              </td>
+              <td style={{ textAlign: "right", fontWeight: 700 }}>
+                {calculateMargin(consolidated.ebitda, consolidated.revenue)}
               </td>
             </tr>
           </tbody>
